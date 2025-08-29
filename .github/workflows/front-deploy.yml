@@ -3,7 +3,7 @@ name: deploy to s3, cloudfront
 on:
     push:
         branches:
-            -main # main에 push하면 동작함
+            - main # main에 push하면 동작함
 jobs:
     build-and-deploy:
         runs-on: ubuntu-latest
